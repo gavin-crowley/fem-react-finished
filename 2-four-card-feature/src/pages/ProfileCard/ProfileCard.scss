@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+/*------------------------------------*\
+     #COLORS
+ \*------------------------------------*/
+
+/**
+ * Brand Colors
+ */
+
+:root {
+  --color-brand-dark-cyan: hsl(185, 75%, 39%);
+  --color-brand-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+  --color-brand-dark-grayish-blue: hsl(227, 10%, 46%);
+}
+
+/**
+  * Neutral Colors
+  */
+
+:root {
+  --color-neutral-white: hsl(0, 0%, 100%);
+  --color-neutral-black: hsl(0, 0%, 0%);
+  --color-neutral-dark-gray: hsl(0, 0%, 59%);
+}
+
+/*------------------------------------*\
+    #BODY
+\*------------------------------------*/
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 1.125rem;
+  background: var(--color-brand-dark-cyan);
+  line-height: 1.6;
+  position: relative;
+}
+
+.bg-img-top {
+  position: absolute;
+  top: -80%;
+  left: -15%;
+}
+
+.bg-img-bottom {
+  position: absolute;
+  bottom: -80%;
+  right: -15%;
+}
+
+@media screen and (max-width: 375px) {
+  .bg-img-top {
+    top: -25%;
+    left: -55%;
+  }
+
+  .bg-img-bottom {
+    bottom: -20%;
+    right: -60%;
+  }
+}

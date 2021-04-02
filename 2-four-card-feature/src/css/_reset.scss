@@ -12,8 +12,8 @@
 }
 
 /**
- * 1) Zero out margins and padding for elements
- */
+  * 1) Zero out margins and padding for elements
+  */
 html,
 body,
 div,
@@ -44,8 +44,8 @@ figure {
 }
 
 /**
- * 1) Set HTML5 elements to display: block
- */
+  * 1) Set HTML5 elements to display: block
+  */
 header,
 footer,
 nav,
@@ -56,53 +56,53 @@ figure {
 }
 
 /*------------------------------------*\
-    #LISTS
-\*------------------------------------*/
+     #LISTS
+ \*------------------------------------*/
 
 /**
- * 1) List base styles
- */
-
-/**
-  * Remove list styles from unordered and ordered lists
+  * 1) List base styles
   */
+
+/**
+   * Remove list styles from unordered and ordered lists
+   */
 ol,
 ul {
   list-style: none;
 }
 
 /*------------------------------------*\
-    #BUTTONS
-\*------------------------------------*/
+     #BUTTONS
+ \*------------------------------------*/
 
 /**
- * Button and submit inputs reset
- * 1) These should be styled using c-btn
- */
+  * Button and submit inputs reset
+  * 1) These should be styled using c-btn
+  */
 button {
   cursor: pointer;
 }
 
 /*------------------------------------*\
-    #MEDIA
-\*------------------------------------*/
+     #MEDIA
+ \*------------------------------------*/
 
 /**
- * Responsive image styling
- * 1) Allows for images to flex with varying screen size
- */
+  * Responsive image styling
+  * 1) Allows for images to flex with varying screen size
+  */
 img {
   max-width: 100%;
   height: auto;
 }
 
 /*------------------------------------*\
-    #TABLES
-\*------------------------------------*/
+     #TABLES
+ \*------------------------------------*/
 
 /**
- * Table
- */
+  * Table
+  */
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -110,15 +110,15 @@ table {
 }
 
 /**
- * Table header cell
- */
+  * Table header cell
+  */
 th {
   text-align: left;
 }
 
 /**
- * Table row
- */
+  * Table row
+  */
 tr {
   vertical-align: top;
 }
