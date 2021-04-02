@@ -7,22 +7,16 @@
 /**
  * Brand Colors
  */
-
-:root {
-  --color-brand-dark-cyan: hsl(185, 75%, 39%);
-  --color-brand-very-dark-desaturated-blue: hsl(229, 23%, 23%);
-  --color-brand-dark-grayish-blue: hsl(227, 10%, 46%);
-}
+$color-brand-dark-cyan: hsl(185, 75%, 39%);
+$color-brand-very-dark-desaturated-blue: hsl(229, 23%, 23%);
+$color-brand-dark-grayish-blue: hsl(227, 10%, 46%);
 
 /**
   * Neutral Colors
   */
-
-:root {
-  --color-neutral-white: hsl(0, 0%, 100%);
-  --color-neutral-black: hsl(0, 0%, 0%);
-  --color-neutral-dark-gray: hsl(0, 0%, 59%);
-}
+$color-neutral-white: hsl(0, 0%, 100%);
+$color-neutral-black: hsl(0, 0%, 0%);
+$color-neutral-dark-gray: hsl(0, 0%, 59%);
 
 /*------------------------------------*\
     #BODY
@@ -35,7 +29,7 @@ body {
   min-height: 100vh;
   font-family: 'Kumbh Sans', sans-serif;
   font-size: 1.125rem;
-  background: var(--color-brand-dark-cyan);
+  background: $color-brand-dark-cyan;
   line-height: 1.6;
   position: relative;
 }

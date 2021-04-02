@@ -1,5 +1,7 @@
+@import '../../../pages/ProfileCard/ProfileCard.scss';
+
 .card {
-  background: var(--color-neutral-white);
+  background: $color-neutral-white;
   width: 350px;
   min-height: 374px;
   box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
@@ -24,7 +26,7 @@
   left: calc(50% - 96px / 2);
   top: calc(50% - 96px / 2 - 47px);
   border-radius: 100px;
-  border: 5px solid var(--color-neutral-white);
+  border: 5px solid $color-neutral-white;
 }
 
 .card__details {
@@ -77,10 +79,10 @@
 
 .card__stats-number {
   font-weight: 700;
-  color: var(--color-brand-very-dark-desaturated-blue);
+  color: $color-brand-very-dark-desaturated-blue;
 }
 
 .card__stats-label {
   font-size: 0.625rem;
-  color: var(--color-brand-dark-grayish-blue);
+  color: $color-brand-dark-grayish-blue;
 }
